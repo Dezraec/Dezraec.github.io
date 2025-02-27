@@ -1,0 +1,60 @@
+/*
+    Name: Dezra Estrada
+    Date:  26 February 2025
+    This is the style.css page for my portfolio of web development work.
+    It is used by all pages in my portfolio to give the site a consistent
+    look and feel.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Sriracha&display=swap');
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+
+}
+
+h1, p{
+    text-align: center;
+    color: #b5bc2d;
+    padding-left: 6%;
+}
+
+
+body{
+    font-family:  "Kumbh Sans", serif;
+}
+
+ol{
+    padding-left: 80%;
+}
+
+.Photos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 7%;
+
+}
+
+.Photos img{
+    max-width: 50%;
+    height: auto;
+    column-gap: 30px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
